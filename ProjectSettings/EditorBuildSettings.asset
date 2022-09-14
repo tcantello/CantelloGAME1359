@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/GamePlay.unity
+    path: Assets/Scenes/SpaceShooter/SpaceShooterTitle.unity
+    guid: 99d4ea1dd4ae6b245a1a1bbd29c6c263
+  - enabled: 1
+    path: Assets/Scenes/SpaceShooter/SpaceShooterGamePlay.unity
     guid: b4ea42ecfbd7d8f47926b9dbe26392d4
+  - enabled: 1
+    path: Assets/Scenes/SpaceShooter/SpaceShooterGameOver.unity
+    guid: 9c5b306bd74c67d43837f608f2dd11de
   m_configObjects: {}

@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -71, y: -245}
-  m_SizeDelta: {x: 400, y: 200}
+  m_SizeDelta: {x: 425, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &61326868
 MonoBehaviour:
@@ -183,7 +183,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Cantello
 
-    GAME 1359'
+    GAME 1359
+
+    Fall Semester 2022'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -246,7 +248,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -126.29779, y: -31.15569, z: -271.4457, w: -69.733025}
+  m_margin: {x: -447.2785, y: -31.15569, z: -514.6891, w: -129.91692}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -272,7 +274,7 @@ GameObject:
   - component: {fileID: 120728980}
   - component: {fileID: 120728979}
   m_Layer: 5
-  m_Name: PressToStart
+  m_Name: SpaceShooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,7 +320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press to START
+  m_text: Space Shooter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -643,7 +645,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -757,7 +759,7 @@ GameObject:
   - component: {fileID: 1652167364}
   - component: {fileID: 1652167367}
   m_Layer: 5
-  m_Name: StartButton
+  m_Name: SpaceShooterButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -829,7 +831,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1652167367}
-        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: SpaceShooterButton, Assembly-CSharp
         m_MethodName: GoToNewScene
         m_Mode: 1
         m_Arguments:
@@ -887,7 +889,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1652167362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b53e4268ed11fcb419315d3bbdfa1570, type: 3}
+  m_Script: {fileID: 11500000, guid: 490d43c0693ff0f4eac9ca37755fd213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GamePlay
+  sceneName: SpaceShooterTitle
